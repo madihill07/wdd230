@@ -94,10 +94,16 @@ ul {
 
   li {
     list-style-type: none;
+    text-decoration: none;
+  }
+
+  li a {
     text-decoration: underline;
   }
 
-  .card {
+  .card,
+  .card2,
+  .card3 {
     max-width: 80%;
     text-align: left;
     border-radius: 25px;
