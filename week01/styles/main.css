@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Reem+Kufi+Ink&display=swap');
+
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+p {
+    font-family: 'Inter Tight', sans-serif;
+    color: #011F26;
+
+}
+
+header{
+    background-color: #305F72;
+}
+
+footer{
+    background-color: #8F7338;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+h2{
+text-align: center;
+font-size: 2em;
+color: #8F7338;
+}
+
+li {
+margin-bottom: 20px;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.info {
+        max-width: 80%;
+        text-align: left;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 5px 5px 5px rgba(0.2,0.2,0.2,0.2);
+        padding: 15px;
+        margin-top: 20px;
+}
+
+div.color {
+    width: 100%;
+}
+
+.type {
+    grid-column: 2 / span 1;
+}
+
+div.wireframe {
+    grid-column: 1 / span 1;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+  img {
+    height: 200px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #305F72;
+    --secondary-color: #AFD1D8;
+    --accent1-color: #8F7338;
+    --accent2-color: #011F26;
+}
+
+.colors {
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+  .colors th {
+    background-color: #d3d3d3;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+    color: white;
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+    color: white;
+  }
+  
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+
+.copyright {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
