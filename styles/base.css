@@ -23,12 +23,52 @@ nav {
     font-size: 1.5em;
 }
 
+.menu {
+	position: fixed;
+	top: 5px;
+	right: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	background: #f7f7f7;
+	z-index: 10;
+	overflow: hidden;
+	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
+}
+.menu a {
+	text-decoration: none;
+	width: 12rem;
+	padding: 1rem;
+	color: #72739f;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: background 0.5s ease-in-out;
+}
+
+.menu  a:hover,
+.menu:first-child a {
+	background: #f7f7f7;
+	color: #06425C;
+}
+
+a.menu-item {
+	display: none;
+}
+
+a.open {
+	display: flex;
+}
+
+.close::before {
+	content: "Close ";
+}
+
 a {
   color: #06425C;
   text-decoration: none;
 }
 
-img.hm {
+img#hm {
     color: white;
     box-shadow: none;
     margin-left: auto;
