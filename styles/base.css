@@ -24,9 +24,8 @@ nav {
 }
 
 .menu {
-	position: fixed;
-	top: 5px;
-	right: 0;
+  display: flex;
+  margin-right: 0px;
 	list-style-type: none;
 	margin: 0;
 	padding: 5px;
@@ -47,7 +46,6 @@ nav {
 
 .menu  a:hover,
 .menu:first-child a {
-	background: #f7f7f7;
 	color: #06425C;
 }
 
@@ -110,7 +108,7 @@ p {
 }
 
 a:hover {
-  color: #fae588;
+  color: #fae588 !important;
 }
 
 h2,

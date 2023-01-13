@@ -11,6 +11,14 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .menu {
+        text-align: right;
+    }
+
+    .mode {
+        margin-left: 500px;
+    }
+
     .card {
         grid-row: 2 / span 2;
         width: 100%;
@@ -60,11 +68,11 @@
 
     }
 
-    img.hm {
+    img#hm {
         max-width: 70%;
-        margin-left: 0px;
+        margin-left: auto;
         margin-right: 0px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     header {
