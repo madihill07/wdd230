@@ -29,6 +29,16 @@
             <h1 class="main-name">Madison Hill</h1>
     </header>
     <main>
+       <div class="hero">
+        <picture>
+           <source media="(min-width: 960px)" srcset="images/ifTemple.png">
+           <source media="(min-width: 400px)" srcset="images/ifTemple2.png">
+            <img src="images/ifTemple.png" alt="Picture of the Idaho Falls, ID. Temple">
+        </picture>
+        <div class="herolabel">
+			<p>Idaho Falls Temple</p>
+		</div>
+       </div>
         <h2>WDD 230: Course Activity Portal</h2>
         <section class="card">
             <div class="la">
@@ -36,7 +46,7 @@
                 <ul>
                     <li>Week 1: <a href="week01/chamber-site-plan.html">Site Plan</a></li>
                     <li>Week 2: <a href="week02/design.html">Design Principles</a> | <a href="week02/bom.html">DOM Manipulation</a> <a href="https://codepen.io/mhill07/pen/BaPZKqM">CodePen</a></li>
-                    <li>Week 3: <a href="">Title</a></li>
+                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Load</a> | <a href="https://codepen.io/mhill07/pen/JjBMjRG">Srcset CodePen</a> | <a href="week03/bom.html">Updated DOM</a></li>
                     <li>Week 4: <a href="">Title</a></li>
                     <li>Week 5: <a href="">Title</a></li>
                     <li>Week 6: <a href="">Title</a></li>
@@ -53,14 +63,16 @@
             <div class="info">
                 <h3>Information</h3>
                 <p>Weather</p>
-                <p>Visit</p>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </div>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43867.050353650135!2d-112.05071337533194!3d46.593352607283656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343510fedc7db4d%3A0x214c1d71e3fdf714!2sHelena%2C%20MT!5e0!3m2!1sen!2sus!4v1674187853726!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </main>
 <footer>
     <p class="copyright">&copy;<span class="year"></span>  -   Madison Hill   -   Idaho </p>
     <p class="highlight" id="lastModified"></p>
   </footer>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/visits.js"></script>
 </body>
 </html>

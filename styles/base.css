@@ -161,3 +161,34 @@ footer{
 .highlight {
     color: #fae588;
 }
+
+.hero {
+	margin: 10px auto;
+	position: relative;
+}
+
+.hero img {
+  object-fit: cover;
+  margin-left: 55px;
+  height: 200px;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.herolabel {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  border: 1px solid rgba(0,0,0,.75);
+  padding: 0.3rem;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: .8rem;
+}
