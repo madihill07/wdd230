@@ -478,6 +478,54 @@ footer{
     margin-top: 5px;
 }
 
+ /*discover page*/
+.maincontent {
+    grid-column: 1 / span 3;
+    grid-row: 1 /span 3;
+    max-width: 100% !important;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;
+}
+ .sidebar {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 6;
+    width: 200px;
+}
+
+.sidebar p {
+    font-size: 15px;
+}
+
+.picturesmt {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.picturesmt p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picturesmt img {
+    max-width: 100%;
+    height: auto;
+}
+
+.picturesmt figure {
+    margin-right:auto;
+}
+
+figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+}
+
 figure {
     padding: 10px;
     display: table;
