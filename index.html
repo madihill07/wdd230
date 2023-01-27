@@ -67,6 +67,35 @@
             </div>
         </section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43867.050353650135!2d-112.05071337533194!3d46.593352607283656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343510fedc7db4d%3A0x214c1d71e3fdf714!2sHelena%2C%20MT!5e0!3m2!1sen!2sus!4v1674187853726!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <fieldset>
+        <form method="post">
+                <legend>Contact Us</legend>
+                    <label class="top">Full Name*<input type="text" name="fullname" required>
+                    </label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required>
+                    </label>
+                <label for="r" class="top" required>Rate the Page [ <span id="rating"></span> ]:*</label>
+	                <div class="rangecontainer">
+		                <input type="range" min="1" max="5" id="r" name="r" list="five" required="required">
+		                    <div class="ratinglabels">
+			                    <span class="ratevalue">1</span>
+			                    <span class="ratevalue">2</span>
+			                    <span class="ratevalue">3</span>
+			                    <span class="ratevalue">4</span>
+			                    <span class="ratevalue">5</span>
+	                </div>
+	                </div>
+                        </label>
+                    </label>
+                    <label class="top" for="keyphrase">Username*</label>
+                    <input type="password" id="keyphrase" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"required /> <!-- {min,max} -->
+                    <label class="top" for="keyphrase2">Re-enter Username*:</label>
+                    <input type="password" id="keyphrase2" name="pwd2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"required />
+        </form>
+        <input type="submit" value="Contact Now" class="submitBtn">
+    </fieldset>
 </main>
 <footer>
     <p class="copyright">&copy;<span class="year"></span>  -   Madison Hill   -   Idaho </p>
@@ -74,5 +103,6 @@
   </footer>
   <script src="scripts/getDates.js"></script>
   <script src="scripts/visits.js"></script>
+  <script src="scripts/rating.js"></script>
 </body>
 </html>
