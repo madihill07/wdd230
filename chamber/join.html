@@ -3,30 +3,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WDD230 - Portal - Madison Hill</title>
-    <meta name="description" content="Assignment portal for Madison Hill. Made for WDD230 Winter semester of 2023 at Brigham Young University - Idaho">
-    <meta property="og:title" content="Madison Hill's Assignment Portal Page For WDD230 at BYUI" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://madihill07.github.io/wdd230/" />
-    <meta property="og:image" content="https://live.staticflickr.com/5778/30689286701_7d8aaa5d51_b.jpg" />
-    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Helena City Chamber</title>
+    <meta name="description" content="Helena City Chamber Site. Made by Madison Hill for WDD230 Winter Semester of 2023 at Brigham Young University - Idaho">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.png">
+
 
 </head>
 <body>
-    <nav class="menu">
-        <img id="hm" src ="images/hm.svg" alt="hamburger menu icon">
-        <a href="https://www.linkedin.com/feed/" class="menu-item" alt="LinkedIn">LinkedIn</a>
-        <a href="https://www.byui.edu/" class="menu-item" alt="BYUI">BYU-Idaho</a>
-        <div id="mode">
-            Dark Mode
-        </div>
-    </nav>
     <header>
-            <img src="images/madisonhillpic.jpg" alt="Picture of Madison">
-            <h1 class="main-name">Madison Hill</h1>
+        <div class="logotop">
+        <img class="logotop" src="images/chamberlogo.png" alt="Chamber Logo">
+    </div>
+        <h1 class="main-name">Helena City</h1>
+        <h2 class="secondtitle">Chamber of Commerce</h2>
+
+        <div class="fblogo">
+            <a href="https://www.facebook.com/">
+                <img class="fblogo" src="images/fblogo.png" alt="Facebook Logo">
+            </a>
+        </div>
+            <div class="linkedinlogo">
+                <a href="https://www.linkedin.com/feed/">
+            <img class="linkedinlogo" src="images/linkedinlogo.png" alt="LinkedIn Logo">
+        </a>
+        </div>
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <h2>Contact Us</h2>
@@ -62,6 +73,7 @@
 
             <fieldset>
                 <label class="description">Description of Business:</label>
+                <br>
 
                 <textarea name="description" rows="4" cols="35">
                 </textarea>
@@ -79,15 +91,32 @@
         <p class="memberinfo">Bronze Membership: Basic advertising on site, cost is $100 annually.</p>
         <p class="memberinfo">Silver Membership: Spotlight advertising on site, Chamber trainings, 20% event discounts, cost is $150 annually.</p>
         <p class="memberinfo">Gold Membership: Exclusive spotlight advertising on all Chamber pages. private Chamber trainings, 40% event discount, cost is $200 annually.</p>
-    </div>
+    </div> 
 </main>
 <footer>
-    <p class="copyright">&copy;<span class="year"></span>  -   Madison Hill   -   Idaho </p>
-    <p class="highlight" id="lastModified"></p>
-  </footer>
-  <script src="scripts/getDates.js"></script>
-  <script src="scripts/visits.js"></script>
-  <script src="scripts/rating.js"></script>
-  <script src="scripts/getDates.js"></script>
+    <div class="logo-image">
+        <img class="logo-image" src="images/chamberlogo.png" alt="Chamber Logo">
+    </div>
+        <div class="name-address">
+        <h2 class="footer-title">Helena City Chamber of Commerce</h2>
+        <p class="info1">415 Main Street<br>Helena, MT 59601</p>
+    </div>
+    <div class="phone-email">
+        <p class="info2">info@helenacitychamber.org</p>
+        <p class="info3">(406) 750-2947</p>
+        <p class="info4">
+            <a href="https://www.google.com/maps/search/?api=1&query=Helena%2C+Helena%2C+MT%2C+us&query_place_id=ChIJTdvH7Q9RQ1MRFPf943EdTCE">Location Map</a>
+        </p>
+    </div>
+    <hr>
+    <div class="copyright-row">
+        <p class="copyright">&copy;<span class="year"></span> - Helena City Chamber of Commerce </p>
+        <p class="name">Madison Hill</p>
+        <p class="myinfo">WDD 230 Project</p>
+        <p class="last"></p>
+    </div>
+</footer>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/submitdate.js"></script>
 </body>
 </html>

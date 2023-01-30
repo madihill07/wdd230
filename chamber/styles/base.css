@@ -320,3 +320,126 @@ figcaption {
     font-family: 'Inter Tight', sans-serif;
     text-align: center;
 }
+
+/*----FORM-----*/
+
+fieldset {
+    margin: 1rem 0;
+    border: 1px solid #06425C;
+    border-radius: 15px;
+    padding: 0.5rem 2%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  form {
+    margin-top: -10px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+  }
+  
+  form legend {
+    background-color: #06425C;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 15px;
+    padding: 8px;
+  }
+  
+  form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #06425C;
+    font-size: .8rem;
+  }
+  
+  form label.top input, form label.top select, input#keyphrase, input#keyphrase2 {
+    -webkit-appearance: none;
+    display: block;
+    font-size: .8rem;
+    border: solid 1px grey;
+    border-radius: 4px;
+    padding: 0.45rem;
+    color: #555;
+    width: 70%;
+    max-width: 20rem;
+    background-color: #dcdcdc;
+  }
+  
+  form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+  }
+  
+  input.submitBtn {
+    border: none;
+    background-color: rgb(6, 66, 92);
+    color: white;
+    border-radius: 0.75rem;
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 20rem;
+  }
+  
+  input.joinchamberBtn {
+    border: none;
+    background-color: rgb(6, 66, 92);
+    color: white;
+    border-radius: 0.75rem;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 15rem;
+    margin-left: 85px;
+  }
+  
+  input.joinchamberBtn:hover {
+    background-color: #dcdcdc;
+    color: #06425C;
+    width: 90%;
+  }
+  
+  #r {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      width: 80%;
+  }
+  
+  .ratinglabels {
+      font-size: 0.8rem;
+      margin: 0 0 1rem 1.1rem;
+  }
+  
+  #rating {
+      color: #06425C;
+  }
+  
+  input[type="radio"] {
+      position: relative;
+      caret-color: rgba(0, 0, 0, 0);
+  }
+  
+  .ratinglabels {
+      display: flex;
+      justify-content: space-around;
+  width: 93%
+  }
+  
+  .ratevalue {
+      margin: 0;
+      flex: 1 1 auto;
+  }
+  
+  div.membershipinfo {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  p.memberinfo {
+    padding: 10px;
+  }

@@ -547,4 +547,42 @@ figure {
     transform: scale(0.8);
     transition: 1s ease;
     }
+
+form {
+    margin-top: -320px;
+    margin-right: 40px;
+    grid-column: 1 /span 2;
+    font-family: 'Reem Kufi Ink';
+    margin-bottom: -300px;
+    }
+
+    form label.top, form div {
+        font-size: 1rem;
+      }
+
+    div.membershipinfo {
+        grid-column: 3 / span 1;
+        width: 100%;
+        grid-row: 2 / span 4;
+        text-align: left;
+        margin-left: -60px;
+        margin-top: 210px;
+      }
+      
+      p.memberinfo {
+        padding: 10px;
+      }
+
+      input.joinchamberBtn {
+        width: 80%;
+        max-width: 20rem;
+        margin-left: 130px;
+        border: none;
+        background-color: rgb(6, 66, 92);
+        color: white;
+        border-radius: 0.75rem;
+        padding: 10px;
+        margin-top: 30px;
+        font-size: 1.2rem;
+      }
 }
