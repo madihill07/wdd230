@@ -212,6 +212,10 @@ fieldset {
   margin-right: auto;
 }
 
+form {
+  margin-top: -10px;
+}
+
 form legend {
   background-color: #06425C;
   width: 100%;
@@ -258,6 +262,24 @@ input.submitBtn {
   max-width: 20rem;
 }
 
+input.joinchamberBtn {
+  border: none;
+  background-color: rgb(6, 66, 92);
+  color: white;
+  border-radius: 0.75rem;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 80%;
+  max-width: 15rem;
+  margin-left: 85px;
+}
+
+input.joinchamberBtn:hover {
+  background-color: #dcdcdc;
+  color: #06425C;
+  width: 90%;
+}
+
 #r {
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -274,7 +296,6 @@ input.submitBtn {
 }
 
 input[type="radio"] {
-	display: none;
 	position: relative;
 	caret-color: rgba(0, 0, 0, 0);
 }
@@ -288,4 +309,15 @@ width: 93%
 .ratevalue {
 	margin: 0;
 	flex: 1 1 auto;
+}
+
+div.membershipinfo {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.memberinfo {
+  padding: 10px;
 }

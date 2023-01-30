@@ -39,3 +39,4 @@ menubutton.addEventListener("click", () => {
 	menuitems.forEach((item) => item.classList.toggle("open"));
 	menubutton.classList.toggle("X");
 });
+

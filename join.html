@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD230 - Portal - Madison Hill</title>
+    <meta name="description" content="Assignment portal for Madison Hill. Made for WDD230 Winter semester of 2023 at Brigham Young University - Idaho">
+    <meta property="og:title" content="Madison Hill's Assignment Portal Page For WDD230 at BYUI" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://madihill07.github.io/wdd230/" />
+    <meta property="og:image" content="https://live.staticflickr.com/5778/30689286701_7d8aaa5d51_b.jpg" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+
+</head>
+<body>
+    <nav class="menu">
+        <img id="hm" src ="images/hm.svg" alt="hamburger menu icon">
+        <a href="https://www.linkedin.com/feed/" class="menu-item" alt="LinkedIn">LinkedIn</a>
+        <a href="https://www.byui.edu/" class="menu-item" alt="BYUI">BYU-Idaho</a>
+        <div id="mode">
+            Dark Mode
+        </div>
+    </nav>
+    <header>
+            <img src="images/madisonhillpic.jpg" alt="Picture of Madison">
+            <h1 class="main-name">Madison Hill</h1>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <br>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>General Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required>
+                    </label>
+                    <label class="top">Last Name*<input type="text" name="lname" required>
+                    </label>
+                    <label class="top">Position<input type="text" name="position" required pattern="*[a-zA-Z -]">
+                    </label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="youremail@gmail.com" required>
+                    </label>
+                    <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required>
+                    </label>
+                    <label class="top">Business Name*<input type="text" name="businessname" required>
+                    </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Selection</legend>
+                <label class="sbs"><input type="radio" name="audience" value="np">NP Membership
+                </label>
+                <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze Membership
+                </label>
+                <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership
+                </label>
+                <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label class="description">Description of Business:</label>
+
+                <textarea name="description" rows="4" cols="35">
+                </textarea>
+            </fieldset>
+        
+                <input type="submit" value="Join The Chamber" class="joinchamberBtn">
+
+                <input type="hidden" id="date" name="date" value="CurrentTime"> 
+                <input type="hidden" id="time" name="time" value="CurrentDate">
+
+        </form>
+    <div class="membershipinfo">
+        <h3>Membership Information</h3>
+        <p class="memberinfo">NP Membership: For non profit organizations and there is no fee.</p>
+        <p class="memberinfo">Bronze Membership: Basic advertising on site, cost is $100 annually.</p>
+        <p class="memberinfo">Silver Membership: Spotlight advertising on site, Chamber trainings, 20% event discounts, cost is $150 annually.</p>
+        <p class="memberinfo">Gold Membership: Exclusive spotlight advertising on all Chamber pages. private Chamber trainings, 40% event discount, cost is $200 annually.</p>
+    </div>
+</main>
+<footer>
+    <p class="copyright">&copy;<span class="year"></span>  -   Madison Hill   -   Idaho </p>
+    <p class="highlight" id="lastModified"></p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/visits.js"></script>
+  <script src="scripts/rating.js"></script>
+  <script src="scripts/getDates.js"></script>
+</body>
+</html>
