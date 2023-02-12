@@ -1,25 +1,38 @@
 {
-    "week01" : [ "week01/chamber-site-plan.html"],
-
-    "week02" : [ "week02/design.html",
-                 "week02/bom.html",
-                 "https://codepen.io/mhill07/pen/BaPZKqM",
-                 "chamber/index.html"],
-
-    "week03" : [ "week03/images/landscape.webp", 
-                 "week03/lazyload.html", 
-                 "https://codepen.io/mhill07/pen/JjBMjRG", 
-                 "week03/bom.html", 
-                 "chamber/discover.html"],
-            
-    "week04" : [ "https://codepen.io/mhill07/pen/bGjKdwZ", 
-                 "images/week04activity.png", 
-                 "week04/tablebuild.html", 
-                 "week04/form-start/index.html", 
-                 "chamber/join.html"],
-
-    "week05" : [ "https://codepen.io/mhill07/pen/xxJmMGJ", 
-                 "week05/new-ward-members.json", 
-                 "week05/prophets.html", 
-                 "week05/weather.html"]
+    "assignments" : [
+        {
+            "week": "01",
+            "assignment1": "week01/chamber-site-plan.html"
+        },
+        {
+            "week": "02",
+            "assignment1": "week02/design.html",
+            "assignment2": "week02/bom.html",
+            "assignment3": "https://codepen.io/mhill07/pen/BaPZKqM",
+            "assignment4": "chamber/index.html"
+        },
+        {
+            "week": "03",
+            "assignment1": "week03/images/landscape.webp",
+            "assignment2": "week03/lazyload.html",
+            "assignment3": "https://codepen.io/mhill07/pen/JjBMjRG",
+            "assignment4": "week03/bom.html",
+            "assignment5": "chamber/discover.html"
+        },
+        {
+            "week": "04",
+            "assignment1": "https://codepen.io/mhill07/pen/bGjKdwZ",
+            "assignment2": "images/week04activity.png",
+            "assignment3": "week04/tablebuild.html",
+            "assignment4": "week04/form-start/index.html",
+            "assignment5": "chamber/join.html"
+        },
+        {
+            "week": "05",
+            "assignment1": "https://codepen.io/mhill07/pen/xxJmMGJ",
+            "assignment2": "week05/new-ward-members.json",
+            "assignment3": "week05/prophets.html",
+            "assignment4": "week05/weather.html"
+        }
+    ]
 }
