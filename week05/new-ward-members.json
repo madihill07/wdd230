@@ -1,0 +1,23 @@
+{
+    "familyName" : "The Schenks",
+    "moveDate" : "October 14th, 2022",
+    "numPeople" : 3,
+    "visited" : true,
+    "members" : [
+      {
+        "name" : "Ethan",
+        "gender" : "Male",
+        "bday" : "Augst 28th, 1999"
+      },
+      {
+        "name" : "Madi",
+        "gender" : "Female",
+        "bday" : "July 14th, 2001"
+      },
+      {
+        "name" : "Weston",
+        "gender" : "Male",
+        "bday" : "October 27th, 2023"
+      }
+    ]
+  }
