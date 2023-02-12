@@ -1,4 +1,4 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const url = 'https://raw.githubusercontent.com/madihill07/wdd230/main/assignments.json';
 
 const cards = document.querySelector('#cards');
 
