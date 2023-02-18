@@ -1,0 +1,58 @@
+{
+    "companies":[
+        {
+            "name": "Bob Ward's Sports & Outdoors",
+            "address": "3323 Dredge Dr, Helena, MT 59601",
+            "telephone": "(406) 443-2138",
+            "URL": "https://www.bobwards.com/",
+            "img": "images/bobwards.png"
+     
+},
+
+{
+    "name": "Big Dipper Ice Cream",
+    "address": "58 N Last Chance Gulch, Helena, MT 59601",
+    "telephone": "(406) 513-1051",
+    "URL": "https://www.bigdippericecream.com/",
+    "img": "images/bd.png"
+},
+{
+    "name": "Queen City Dental Studio",
+    "address": "1300 N Montana Ave, Helena, MT 59601",
+    "telephone": "(406) 449-1300",
+    "URL": "https://www.queencitydentalstudio.com/",
+    "img":"images/queencity.png"
+},
+{
+    "name": "General Mercantile",
+    "address": "413 N Last Chance Gulch, Helena, MT 59601",
+    "telephone": "(406) 461-6028",
+    "URL": "https://generalmerc.com/",
+    "img": "images/gm.png"
+},
+{
+    "name": "Parrot Confectionery Store",
+    "address": "42 N Last Chance Gulch, Helena, MT 59601",
+    "telephone": "(406) 442-1470",
+    "URL": "https://www.parrotchocolate.com/",
+    "img": "images/theparrot.png"
+},
+{
+    "name": "Eureka!",
+    "address": "38 S Last Chance Gulch St Suite 102, Helena, MT 59601",
+    "telephone": "(970) 313-8720",
+    "URL": "https://eurekahelena.com/",
+    "img": "images/eureka.png"
+},
+{
+    "name": "Capital City Health Club",
+    "address": "1280 N Montana Ave, Helena, MT 59601",
+    "telephone": "(406) 442-6577",
+    "URL": "https://www.capcity.club/",
+    "img": "images/capitalcitylogo.webp"
+}
+
+
+]
+
+}
