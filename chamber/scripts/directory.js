@@ -2,7 +2,7 @@
 
     // 1. Create a fetch, to get data from a previously made JSON File 
 
-    getURL = ''
+    getURL = 'https://madihill07.github.io/wdd230/chamber/members.json'
 
     // Creates a function to get the items of the JSON File  
     async function getItems(getURL) {

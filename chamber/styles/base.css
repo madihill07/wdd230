@@ -443,3 +443,33 @@ fieldset {
   p.memberinfo {
     padding: 10px;
   }
+
+  button {
+    text-align: center;
+    padding: 1rem;
+	font-weight: 700;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.business_lists {
+    display: flex;
+    max-width: 400px;
+}
+
+.business_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-color: black;
+    max-width: 300px;
+}
+
+.business_card {
+    border-style: solid;
+    margin: 5px 5px;
+}
+
+table {
+    border-style: solid;
+}

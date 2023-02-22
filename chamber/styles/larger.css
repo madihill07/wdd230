@@ -585,4 +585,39 @@ form {
         margin-top: 30px;
         font-size: 1.2rem;
       }
+
+    
+    .business_lists {
+        display: flex;
+    }
+    
+    .business_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: white;
+        border-color: black;
+    }
+    
+    .business_card {
+        border-style: solid;
+        margin: 5px 5px;
+        max-width: 400px;
+    }
+
+    .business_card img {
+        max-width: 150px;
+        height: auto;
+    }
+    
+    .business_tables {
+        display: block;
+        text-align: center;
+    }
+    
+    table {
+        border-style: solid;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
